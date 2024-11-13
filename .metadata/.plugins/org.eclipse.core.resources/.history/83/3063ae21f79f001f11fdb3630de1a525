@@ -11,8 +11,8 @@ public class HelloWorld {
 		return "Hello World!";
 	}
 
-	@GetMapping("/morning")
+	@GetMapping("/afternoon")
 	public String goodAfternoon() {
-		return "Good Morning!";
+		return "Good Afternoon!";
 	}
 }
